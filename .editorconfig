@@ -1,5 +1,7 @@
 [*.{kt,kts}]
-ktlint_standard_wrapping=disabled
+ktlint_standard_wrapping = disabled
+ktlint_standard_trailing-comma-on-call-site = disabled
+ktlint_standard_trailing-comma-on-declaration-site = disabled
 wildcard_import_limit = 999
 ij_kotlin_name_count_to_use_star_import = 999
 ij_kotlin_name_count_to_use_star_import_for_members = 999

@@ -28,3 +28,13 @@ dependencies {
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 }
+
+ktlint {
+    version.set("0.50.0")
+    verbose.set(true)
+    outputToConsole.set(true)
+    coloredOutput.set(true)
+    debug.set(true)
+    outputColorName.set("RED")
+    ignoreFailures.set(false)
+}
